@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase doce - tablas - CodeMundo</title>
+    <style media="screen">
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            /* border: 1px solid black; */
+            padding: 10px;
+        }
+        thead tr {
+            background-color: rgba(0, 0, 0, .9);
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: rgba(0, 0, 255, .1);
+        }
+        tbody tr:nth-child(odd) {
+            background-color: rgba(0, 0, 255, .2);
+        }
+        tbody tr:hover {
+            background-color: rgba(0, 0, 255, .5);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Lista de usuarios</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Teléfono</th>
+                <th>Direccion</th>
+                <th colspan="2">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>1234567890</td>
+                <td>USA</td>
+                <td>Editar</td>
+                <td>Borrar</td>
+            </tr>
+            <tr>
+                <td>John 2</td>
+                <td>Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>1234567890</td>
+                <td>USA</td>
+                <td>Editar</td>
+                <td>Borrar</td>
+            </tr>
+            <tr>
+                <td>John 2</td>
+                <td>Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>1234567890</td>
+                <td>USA</td>
+                <td>Editar</td>
+                <td>Borrar</td>
+            </tr>
+            <tr>
+                <td>John 2</td>
+                <td>Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>1234567890</td>
+                <td>USA</td>
+                <td>Editar</td>
+                <td>Borrar</td>
+            </tr>
+            <tr>
+                <td>John 2</td>
+                <td>Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>1234567890</td>
+                <td>USA</td>
+                <td>Editar</td>
+                <td>Borrar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
